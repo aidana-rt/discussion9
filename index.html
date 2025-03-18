@@ -84,8 +84,8 @@
         }
 
         // Step 4: Add the correct ID for the button, create an element 'p' and add a message "2023 Champions!" to p
-        document.getElementById("addIDhere").addEventListener("click", function() {
-            gameDayMessage = document.createElement("p");
+        document.getElementById("addMessageButton").addEventListener("click", function() {
+            let gameDayMessage = document.createElement("p");
             gameDayMessage.textContent = "2023 Champions!";
             gameDayMessage.classList.add("highlight");
             document.getElementById("message").appendChild(gameDayMessage); // Add to the message div
